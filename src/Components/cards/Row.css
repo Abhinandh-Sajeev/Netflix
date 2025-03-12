@@ -17,4 +17,17 @@
 .cardimg{
     max-height: 250px;
     margin-right: 10px;
+    cursor: pointer;
+}
+.smallcardimg{
+    max-width: 180px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cardimg:hover{
+    transform: scale(1.1);
+}
+.smallcardimg:hover{
+    transform: scale(1.1);
 }
